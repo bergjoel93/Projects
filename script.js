@@ -116,7 +116,7 @@ function getProjects() {
       name: "To-Do List",
       img: "./img/Taskr.png",
       description:
-        "This purpose of this project was to practice using ES6 modules, Classes, and WebPack to create a functional and user-friendly todo list for organizing tasks into projects, setting priorities, and managing deadlines. This one was a doozy but it made me so much better as a programme in the end. ",
+        "The purpose of this project was to practice using ES6 modules, Classes, and WebPack to create a functional and user-friendly todo list for organizing tasks into projects, setting priorities, and managing deadlines. This one was a doozy but it made me so much better as a programme in the end. ",
       repo: "https://github.com/bergjoel93/Taskr",
       live: "https://bergjoel93.github.io/Taskr",
       for: "",
@@ -126,7 +126,7 @@ function getProjects() {
       name: "Restaurant Page",
       img: "./img/Restaurant.png",
       description:
-        "This project was my first introduction to diving my code into ES6 modules. This project also used WebPack. The content was injected using JavaScript when the user clicked a menu button. ",
+        "This project was my first introduction to using and practicing ES6 modules. This project also used WebPack. The content was injected using JavaScript when the user clicked a menu button. ",
       repo: "https://github.com/bergjoel93/Restaurant-Page",
       live: "https://bergjoel93.github.io/Restaurant-Page",
       for: "",
@@ -136,14 +136,14 @@ function getProjects() {
       name: "Tic-Tac-Toe",
       img: "./img/TicTacToe.png",
       description:
-        " The purpose of this project is to practice organizing code using objects and factories, ensuring minimal global variables and a clean module pattern. By completing this project, I gained experience in structuring JavaScript code to manage game state, player interactions, and game flow control efficiently.",
+        " The purpose of this project was to practice organizing code using objects and factories, ensuring minimal global variables and a clean module pattern. By completing this project, I gained experience in structuring JavaScript code to manage game state, player interactions, and game flow control efficiently.",
       repo: "https://github.com/bergjoel93/Tic_Tac_Toe",
       live: "https://bergjoel93.github.io/Tic_Tac_Toe",
       for: "",
       learned: "",
     },
     Library: {
-      name: "",
+      name: "Library",
       img: "./img/Library.png",
       description:
         "The Library project from The Odin Project involves creating a small web application to manage a collection of books, extending the 'Book' example from a previous lesson. The purpose of this project is to practice object-oriented programming and DOM manipulation by allowing users to add, display, and manage books in a library.",
@@ -154,7 +154,7 @@ function getProjects() {
     },
 
     AdminDashboard: {
-      name: "",
+      name: "Admin Dashboard",
       img: "./img/AdminDashboard.png",
       description:
         "The Admin Dashboard project from The Odin Project focuses on building a full dashboard layout using CSS Grid for the majority of the layout work. The purpose of this project is to apply and solidify knowledge of CSS Grid in a real-world scenario.",
