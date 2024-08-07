@@ -62,6 +62,16 @@ const renderProjects = new RenderProjects(getProjects());
 
 function getProjects() {
   return {
+    CVGenerator: {
+      name: "CV-Generator",
+      img: "./img/CVGenerator.png",
+      description:
+        "The purpose of this project was to create a React App for the first time that uses dynamic forms to generate a personal CV or Resume. This project helped me practice state management and lifting states to parents.",
+      repo: "https://github.com/bergjoel93/CV-Application",
+      live: "https://mellow-marigold-3f0b74.netlify.app/",
+      for: "The Odin Project",
+      learned: "",
+    },
     Battleship: {
       name: "Battleship",
       img: "./img/Battleship.png",
