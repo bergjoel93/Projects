@@ -62,6 +62,26 @@ const renderProjects = new RenderProjects(getProjects());
 
 function getProjects() {
   return {
+    ShoppingCart: {
+      name: "Shopping-Cart",
+      img: "./assets/screenshots/ShoppingCart.png",
+      description:
+        "This project is a mock eccommerce site built using React. This project uses React Router to handle client-side routing. This project also helped me practice creating components with state and the Context API for state management.",
+      repo: "https://github.com/bergjoel93/Shopping-Cart",
+      live: "https://shopping-cart-odin-project-775.netlify.app/shop/",
+      for: "The Odin Project",
+      learned: "",
+    },
+    MemoryCart: {
+      name: "Memory-Card",
+      img: "./assets/screenshots/MemoryCard.png",
+      description:
+        "This project is a memory card game built with React. This project introduced me to the useEffect hook and how to deal with side effects. The images and data are from a Bob's Burgers API.",
+      repo: "https://github.com/bergjoel93/Memory-Card",
+      live: "https://verdant-bublanina-4073d8.netlify.app/",
+      for: "The Odin Project",
+      learned: "",
+    },
     CVGenerator: {
       name: "CV-Generator",
       img: "./img/CVGenerator.png",
