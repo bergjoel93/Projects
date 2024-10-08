@@ -64,7 +64,7 @@ function getProjects() {
   return {
     ShoppingCart: {
       name: "Shopping-Cart",
-      img: "./assets/screenshots/ShoppingCart.png",
+      img: "./img/ShoppingCart.png",
       description:
         "This project is a mock eccommerce site built using React. This project uses React Router to handle client-side routing. This project also helped me practice creating components with state and the Context API for state management.",
       repo: "https://github.com/bergjoel93/Shopping-Cart",
@@ -74,7 +74,7 @@ function getProjects() {
     },
     MemoryCart: {
       name: "Memory-Card",
-      img: "./assets/screenshots/MemoryCard.png",
+      img: "./img/MemoryCard.png",
       description:
         "This project is a memory card game built with React. This project introduced me to the useEffect hook and how to deal with side effects. The images and data are from a Bob's Burgers API.",
       repo: "https://github.com/bergjoel93/Memory-Card",
