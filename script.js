@@ -62,6 +62,26 @@ const renderProjects = new RenderProjects(getProjects());
 
 function getProjects() {
   return {
+    InventoryApp: {
+      name: "Inventory-App",
+      img: "./img/inventory-app.png",
+      description:
+        "A simple and elegent CRUD app I developed. It's an inventory app for a Carnivorous Plant store. The user can create, read, update, and delete inventory items that are within a category. Uses a PostgreSQL relational DB.",
+      repo: "https://github.com/bergjoel93/Inventory-App/",
+      live: "https://carnivorous-plant-inventory.up.railway.app/",
+      for: "The Odin Project",
+      learned: "",
+    },
+    MiniMessageBoard: {
+      name: "Mini-Message-Board",
+      img: "./img/mini-message-board.png",
+      description:
+        "A simple messaging board that is connected to a PostgreSQL database.",
+      repo: "https://github.com/bergjoel93/Mini-Message-Board",
+      live: "https://mini-message-board-production-3b6b.up.railway.app/",
+      for: "The Odin Project",
+      learned: "",
+    },
     ShoppingCart: {
       name: "Shopping-Cart",
       img: "./img/ShoppingCart.png",
@@ -69,6 +89,16 @@ function getProjects() {
         "This project is a mock eccommerce site built using React. This project uses React Router to handle client-side routing. This project also helped me practice creating components with state and the Context API for state management.",
       repo: "https://github.com/bergjoel93/Shopping-Cart",
       live: "https://shopping-cart-odin-project-775.netlify.app/shop/",
+      for: "The Odin Project",
+      learned: "",
+    },
+    OverTheGardenWall: {
+      name: "Over-The-Garden-Wall",
+      img: "./img/over-the-garden-wall.png",
+      description:
+        "This is an E-Invitation application I made to invite my close friends to a watch party. This app is really good on mobile and has some integration with google sheets and forms.",
+      repo: "https://overthegardenwallrsvp.netlify.app/",
+      live: "https://github.com/bergjoel93/Over-The-Garden-Wall",
       for: "The Odin Project",
       learned: "",
     },
