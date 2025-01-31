@@ -62,6 +62,26 @@ const renderProjects = new RenderProjects(getProjects());
 
 function getProjects() {
   return {
+    MembersOnly: {
+      name: "Members-Only",
+      img: "./img/members-only.png",
+      description:
+        "A full stack chat application where members start with a 'regular' status and can use a secret password to become a 'secret' member. A secret member can view the names and usernames of who wrote the messages in the message board. This app uses passport and express session for persistent authentication.",
+      repo: "https://github.com/bergjoel93/Members-Only",
+      live: "https://anony-moose.up.railway.app/",
+      for: "The Odin Project",
+      learned: "",
+    },
+    BillTracker: {
+      name: "Bike-Utah-Bill-Tracker",
+      img: "./img/bill-tracker.png",
+      description:
+        "Bike Utah, a non-profit organization, was in desperate need for a solution for tracking legislative bills. I built them a simple application to do just that. This bill tracker has an admin console that is password protected. The client can log in and add/edit/delete legislative bills with an online form. After they press submit, the data is requested from the Utah Legislture website and sent back where it is cached in a database and displayed on the main page as a nice table. Data is fetched to update bill-status every hour. ",
+      repo: "https://github.com/bergjoel93/Bike-Utah-Bill-Tracker",
+      live: "https://www.bikeutah.org/bill-tracker?srsltid=AfmBOooWNx-42XyhfCZ_8g9NBOw3Lh91cbELYiw5jSuTnfTBsQtqCCL5",
+      for: "The Odin Project",
+      learned: "",
+    },
     InventoryApp: {
       name: "Inventory-App",
       img: "./img/inventory-app.png",
